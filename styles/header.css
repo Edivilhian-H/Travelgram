@@ -5,6 +5,7 @@ header {
   margin-block: 20px;
 }
 
+
 ul {
   font-family: var(--text-color-secondary);
   display: flex;
@@ -12,11 +13,17 @@ ul {
   gap: 24px;
 }
 
-ul li {
+ul a {
   color: var(--text-color-secondary, #6c6c6c);
   font-size: var(--text-md);
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+
+ul a:hover{
+  color: var(--brand-color);
+  text-decoration: underline;
 }
 
 ul li:first-child img {
