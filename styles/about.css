@@ -1,0 +1,51 @@
+section {
+  display: flex;
+  margin-block: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section > #profile {
+  display: flex;
+  gap: 32px;
+}
+
+section > #profile .img-profile {
+  width: 176px;
+  height: 176px;
+}
+
+section > #profile h1 {
+  color: var(--text-color-primary);
+}
+
+section > #profile p {
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+  width: 384px;
+}
+
+
+section > .information ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+
+
+section > .information > ul > li > a > img {
+  width: 24px;
+  height: 24px;
+}
+
+section > .information > ul > li > a {
+  color: var(--text-color-secondary, #6c6c6c);
+  font: var(--text-md);
+
+  display: flex;
+  gap: 8px;
+
+  justify-content: center;
+  align-items: center;
+}
