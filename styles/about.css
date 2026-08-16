@@ -1,51 +1,52 @@
 section {
   display: flex;
-  margin-block: 32px;
+  padding-bottom: 36px;
+
   justify-content: space-between;
   align-items: center;
+
+}
+
+.img-profile {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
 }
 
 section > #profile {
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 
-section > #profile .img-profile {
-  width: 176px;
-  height: 176px;
+#profile > div {
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
 }
 
-section > #profile h1 {
+#profile > div > h1{
   color: var(--text-color-primary);
+  font: var(--text-lg);
 }
 
-section > #profile p {
-  font: var(--text-md);
+#profile > div > p {
   color: var(--text-color-secondary);
+  font: var(--text-md);
   width: 384px;
+
 }
 
-
-section > .information ul {
+#info{
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  gap: 16px;
+
+  width: 280px;
 }
 
-
-
-section > .information > ul > li > a > img {
-  width: 24px;
-  height: 24px;
-}
-
-section > .information > ul > li > a {
-  color: var(--text-color-secondary, #6c6c6c);
-  font: var(--text-md);
-
+#info li {
   display: flex;
-  gap: 8px;
-
-  justify-content: center;
   align-items: center;
+  gap: 8px;
 }

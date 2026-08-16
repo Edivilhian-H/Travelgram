@@ -2,36 +2,30 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-block: 20px;
+  padding-block: 20px;
 }
 
-
-ul {
+nav > ul {
   font-family: var(--text-color-secondary);
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-ul a {
+nav > ul a {
   color: var(--text-color-secondary, #6c6c6c);
-  font-size: var(--text-md);
+  font: var(--text-md);
   display: flex;
   align-items: center;
-  text-decoration: none;
 }
 
-ul a:hover{
-  color: var(--brand-color);
-  text-decoration: underline;
-}
 
-ul li:first-child img {
+nav > ul li:first-child img {
   width: 24px;
   height: 24px;
 }
 
-ul li img {
+nav > ul li img {
   width: 40px;
   height: 40px;
 }
