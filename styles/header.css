@@ -19,7 +19,6 @@ nav > ul a {
   align-items: center;
 }
 
-
 nav > ul li:first-child img {
   width: 24px;
   height: 24px;
@@ -28,4 +27,6 @@ nav > ul li:first-child img {
 nav > ul li img {
   width: 40px;
   height: 40px;
+
+  border-radius: 50%;
 }
